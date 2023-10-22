@@ -1,0 +1,29 @@
+[
+	{ "fullName": "Vladyslav Masokha", "position": "Junior Frontend developer" },
+	[
+		{
+			"source": "<i class=\"fa-solid fa-phone\"></i>",
+			"text": "Phone",
+			"value": "+380635040209",
+			"data": "+380635040209"
+		},
+		{
+			"source": "<i class=\"fa-brands fa-telegram\"></i>",
+			"text": "Telegram",
+			"value": "@vll_kmx",
+			"data": "https://t.me/vll_kmx"
+		},
+		{
+			"source": "<i class=\"fa-brands fa-github\"></i>",
+			"text": "GitHub",
+			"value": "https://github.com/vladyslav-masokha",
+			"data": "https://github.com/vladyslav-masokha"
+		},
+		{
+			"source": "<i class=\"fa-brands fa-linkedin\"></i>",
+			"text": "LinkedIn",
+			"value": "vladyslav-masokha-0a605a290",
+			"data": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/"
+		}
+	]
+]

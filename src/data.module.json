@@ -25,5 +25,21 @@
 			"value": "vladyslav-masokha-0a605a290",
 			"data": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/"
 		}
+	],
+	{
+		"text": "Frontend Developer with over 2 years of web development experience, including personal and open-source projects. My goal is to further develop my skills and contribute to web development projects that value creativity, innovation, and user-centric design."
+	},
+	[
+		{
+			"institution": "State University of Information and Communication Technologies, 2023 - present."
+		}
+	],
+	[
+		{ "skill": "HTML5, CSS3, JavaScript" },
+		{ "skill": "Sass" },
+		{ "skill": "Responsive Web Design" },
+		{ "skill": "Git" },
+		{ "skill": "React, Redux" },
+		{ "skill": "C++ (basic)" }
 	]
 ]

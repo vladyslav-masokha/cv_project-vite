@@ -4,18 +4,22 @@ import './PersonalInfo.scss';
 const PersonalInfo = ({ data }) => {
 	return (
 		<div className='personalInfo'>
-			<h2 className='personalInfoText'>Personal information: </h2>
+			<h2>Personal information</h2>
 
 			<FiolLine />
 
-			{data.map((el, index) => (
-				<div className='data' key={index}>
-					<span dangerouslySetInnerHTML={{ __html: el.source }} />
-					<span className='personalInfoData'>
-						{el.text}: <a href={el.data}>{el.value}</a>
-					</span>
-				</div>
-			))}
+			{data ? (
+				data.map((el, index) => (
+					<div className='data' key={index}>
+						<span dangerouslySetInnerHTML={{ __html: el.source }} />
+						<span className='personalInfoData'>
+							{el.text}: <a href={el.data}>{el.value}</a>
+						</span>
+					</div>
+				))
+			) : (
+				<span>Data is not defined!</span>
+			)}
 		</div>
 	);
 };

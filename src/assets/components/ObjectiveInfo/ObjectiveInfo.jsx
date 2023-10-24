@@ -8,8 +8,8 @@ const ObjectiveInfo = ({ data }) => {
 
 			<FiolLine />
 
-			{data ? (
-				<p className='objectiveInfoData'>{data.text}</p>
+			{data.summary ? (
+				<p className='objectiveInfoData'>{data.summary}</p>
 			) : (
 				<span>Data is not defined!</span>
 			)}

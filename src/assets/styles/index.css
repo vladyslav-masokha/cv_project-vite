@@ -34,6 +34,12 @@ li {
 
 	max-width: 600px;
 	font-family: 'Montserrat', sans-serif;
+
+	.cvBody {
+		/* display: flex;
+		align-items: flex-start;
+		gap: 30px; */
+	}
 }
 
 .wrapper {

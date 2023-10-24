@@ -1,45 +1,64 @@
-[
-	{ "fullName": "Vladyslav Masokha", "position": "Junior Frontend developer" },
-	[
+{
+	"fullName": "Vladyslav Masokha",
+	"position": "Junior Frontend developer",
+	"contactInformation": [
 		{
-			"source": "<i class=\"fa-solid fa-phone\"></i>",
-			"text": "Phone",
+			"icon": "<i class=\"fa-solid fa-phone\"></i>",
+			"source": "Phone",
 			"value": "+380635040209",
-			"data": "+380635040209"
+			"data": "tel:+380635040209"
 		},
 		{
-			"source": "<i class=\"fa-brands fa-telegram\"></i>",
-			"text": "Telegram",
+			"icon": "<i class=\"fa-brands fa-telegram\"></i>",
+			"source": "Telegram",
 			"value": "@vll_kmx",
 			"data": "https://t.me/vll_kmx"
 		},
 		{
-			"source": "<i class=\"fa-brands fa-github\"></i>",
-			"text": "GitHub",
+			"icon": "<i class=\"fa-brands fa-github\"></i>",
+			"source": "GitHub",
 			"value": "https://github.com/vladyslav-masokha",
 			"data": "https://github.com/vladyslav-masokha"
 		},
 		{
-			"source": "<i class=\"fa-brands fa-linkedin\"></i>",
-			"text": "LinkedIn",
-			"value": "vladyslav-masokha-0a605a290",
+			"icon": "<i class=\"fa-brands fa-linkedin\"></i>",
+			"source": "LinkedIn",
+			"value": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/",
 			"data": "https://www.linkedin.com/in/vladyslav-masokha-0a605a290/"
 		}
 	],
-	{
-		"text": "Frontend Developer with over 2 years of web development experience, including personal and open-source projects. My goal is to further develop my skills and contribute to web development projects that value creativity, innovation, and user-centric design."
-	},
-	[
+	"summary": "Frontend Developer with over 2 years of web development experience, including personal and open-source projects. My goal is to further develop my skills and contribute to web development projects that value creativity, innovation, and user-centric design.",
+	"education": [
 		{
-			"institution": "State University of Information and Communication Technologies, 2023 - present."
+			"institution": "State University of Information and Communication Technologies",
+			"duration": "2023 - present"
 		}
 	],
-	[
-		{ "skill": "HTML5, CSS3, JavaScript" },
-		{ "skill": "Sass" },
-		{ "skill": "Responsive Web Design" },
-		{ "skill": "Git" },
-		{ "skill": "React, Redux" },
-		{ "skill": "C++ (basic)" }
+	"skills": [
+		"HTML5, CSS3, JavaScript",
+		"Sass",
+		"Responsive Web Design",
+		"Git",
+		"React, Redux",
+		"C++ (basic)"
+	],
+	"softSkills": ["Fast learner", "Time management"],
+	"projectsDescription": "I would like to invite you to review some projects on my GitHub:",
+	"projects": [
+		{
+			"projectName": "HLegal",
+			"projectDescription": ": React & JQuery technologies were used.",
+			"projectSrc": "https://vladyslav-masokha.github.io/hlegal"
+		},
+		{
+			"projectName": "JavaScript documentation",
+			"projectDescription": ": Sass and JavaScript technologies were used.",
+			"projectSrc": "https://vladyslav-masokha.github.io/JavaScript-documentation/"
+		},
+		{
+			"projectName": "English dictionary",
+			"projectDescription": ": A simple website, using Sass and JavaScript technologies.",
+			"projectSrc": "https://vladyslav-masokha.github.io/english-dictionary/"
+		}
 	]
-]
+}

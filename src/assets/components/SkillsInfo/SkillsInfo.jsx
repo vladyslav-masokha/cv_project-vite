@@ -9,9 +9,9 @@ const SkillsInfo = ({ data }) => {
 			<FiolLine />
 
 			{data ? (
-				data.map((el, index) => (
+				data.skills.map((el, index) => (
 					<div className='data' key={index}>
-						<span className='skillsInfoData'>{el.skill}</span>
+						<span className='skillsInfoData'>{el}</span>
 					</div>
 				))
 			) : (

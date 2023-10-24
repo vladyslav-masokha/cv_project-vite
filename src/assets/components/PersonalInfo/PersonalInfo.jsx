@@ -8,12 +8,15 @@ const PersonalInfo = ({ data }) => {
 
 			<FiolLine />
 
-			{data ? (
-				data.map((el, index) => (
+			{data.contactInformation ? (
+				data.contactInformation.map((el, index) => (
 					<div className='data' key={index}>
-						<span dangerouslySetInnerHTML={{ __html: el.source }} />
+						<span dangerouslySetInnerHTML={{ __html: el.icon }} />
 						<span className='personalInfoData'>
-							{el.text}: <a href={el.data}>{el.value}</a>
+							{el.source}:{' '}
+							<a href={el.data} target='_blank'>
+								{el.value}
+							</a>
 						</span>
 					</div>
 				))

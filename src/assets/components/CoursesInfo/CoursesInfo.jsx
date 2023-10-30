@@ -1,17 +1,18 @@
 import FiolLine from '../../ui/FiolLine/FiolLine';
+import './CoursesInfo.scss';
 
-const EducationInfo = ({ data }) => {
+const CoursesInfo = ({ data }) => {
 	return (
-		<div className='educationInfo'>
-			<h2>Education</h2>
+		<div className='coursesInfo'>
+			<h2>Courses</h2>
 
 			<FiolLine />
 
-			{data.education ? (
-				data.education.map((el, index) => (
+			{data.courses ? (
+				data.courses.map((el, index) => (
 					<div className='data' key={index}>
 						<span className='personalInfoData'>
-							{el.institution}, {el.duration}
+							{el.year}, {el.data}
 						</span>
 					</div>
 				))
@@ -22,4 +23,4 @@ const EducationInfo = ({ data }) => {
 	);
 };
 
-export default EducationInfo;
+export default CoursesInfo;

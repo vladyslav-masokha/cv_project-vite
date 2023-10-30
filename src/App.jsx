@@ -1,4 +1,7 @@
 import { useMemo, useState } from 'react';
+import AdditionalInfo from './assets/components/AdditionalInfo/AdditionalInfo';
+import CertificatesInfo from './assets/components/CertificatesInfo/CertificatesInfo';
+import CoursesInfo from './assets/components/CoursesInfo/CoursesInfo';
 import EducationInfo from './assets/components/EducationInfo/EducationInfo';
 import ObjectiveInfo from './assets/components/ObjectiveInfo/ObjectiveInfo';
 import PersonalInfo from './assets/components/PersonalInfo/PersonalInfo';
@@ -9,40 +12,26 @@ import UserNamePosition from './assets/components/UserNamePosition/UserNamePosit
 import data from './data.module.json';
 
 const App = () => {
-	const [userNamePosition, setUserNamePosition] = useState([]);
-	const [personalInfo, setPersonalInfo] = useState([]);
-	const [objectiveInfo, setObjectiveInfo] = useState([]);
-	const [educationInfo, setEducationInfo] = useState([]);
-	const [skillsInfo, setSkillsInfo] = useState([]);
-	const [softSkillsInfo, setSoftSkillsInfo] = useState([]);
-	const [projectsInfo, setProjectsInfo] = useState([]);
-
-	useMemo(() => {
-		setUserNamePosition(data);
-		setPersonalInfo(data);
-		setObjectiveInfo(data);
-		setEducationInfo(data);
-		setSkillsInfo(data);
-		setSoftSkillsInfo(data);
-		setProjectsInfo(data);
-	}, [data]);
 
 	return (
 		<div className='cv'>
 			<div className='wrapper'>
-				<UserNamePosition data={userNamePosition} />
+				<UserNamePosition data={data} />
 				<hr />
 
 				<div className='cvBody'>
 					<div className='part1'>
-						<PersonalInfo data={personalInfo} />
-						<ObjectiveInfo data={objectiveInfo} />
-						<EducationInfo data={educationInfo} />
-						<SkillsInfo data={skillsInfo} />
-						<SoftSkillsInfo data={softSkillsInfo} />
+						<PersonalInfo data={data} />
+						<ObjectiveInfo data={data} />
+						<EducationInfo data={data} />
+						<SkillsInfo data={data} />
+						<SoftSkillsInfo data={data} />
 					</div>
 					<div className='part2'>
-						<ProjectsInfo data={projectsInfo} />
+						<ProjectsInfo data={data} />
+						<CoursesInfo data={data} />
+						<CertificatesInfo data={data} />
+						<AdditionalInfo data={data} />
 					</div>
 				</div>
 			</div>

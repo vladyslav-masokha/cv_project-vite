@@ -1,9 +1,8 @@
 import FiolLine from '../../ui/FiolLine/FiolLine';
-import './SoftSkillsInfo.scss';
 
 const SoftSkillsInfo = ({ data }) => {
 	return (
-		<div className='softSkills'>
+		<div className='softSkillsInfo'>
 			<h2>Soft skills</h2>
 
 			<FiolLine />

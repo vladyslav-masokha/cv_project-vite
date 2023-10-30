@@ -34,12 +34,6 @@ li {
 
 	max-width: 600px;
 	font-family: 'Montserrat', sans-serif;
-
-	.cvBody {
-		/* display: flex;
-		align-items: flex-start;
-		gap: 30px; */
-	}
 }
 
 .wrapper {
@@ -56,4 +50,28 @@ h2 {
 	font-size: 0.8em;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+}
+
+.personalInfo,
+.objectiveInfo,
+.educationInfo,
+.skillsInfo,
+.softSkillsInfo,
+.projectsInfo,
+.coursesInfo,
+.certificatesInfo,
+.additionalInfo {
+	margin: 30px 0 0;
+
+	& a {
+		color: var(--lime);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.cvBody {
+		display: flex;
+		align-items: flex-start;
+		gap: 30px;
+	}
 }

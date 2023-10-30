@@ -60,5 +60,17 @@
 			"projectDescription": ": A simple website, using Sass and JavaScript technologies.",
 			"projectSrc": "https://vladyslav-masokha.github.io/english-dictionary/"
 		}
-	]
+	],
+	"courses": [
+		{ "year": "2022", "data": "Front End Pro' course at Hillel IT-school" },
+		{
+			"year": "2018-2021",
+			"data": "'Java' & 'Web 2.0' courses at RoboCode school"
+		}
+	],
+	"certificatesUrl": [
+		"https://certificate.ithillel.ua/view/47449417",
+		"https://github.com/vladyslav-masokha/Certificates"
+	],
+	"additionalInfo": ["English - Pre-intermediate"]
 }

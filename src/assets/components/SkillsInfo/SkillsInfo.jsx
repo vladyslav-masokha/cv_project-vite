@@ -1,5 +1,4 @@
 import FiolLine from '../../ui/FiolLine/FiolLine';
-import './SkillsInfo.scss';
 
 const SkillsInfo = ({ data }) => {
 	return (
